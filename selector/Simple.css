@@ -1,1 +1,45 @@
+/*all tag selector */
+
+nav {
+  color: burlywood;
+  background-color: black;
+}
+/*all tag selector */
+
+p {
+  background-color: rgb(137, 132, 125);
+}
+/*id selector */
+
+#logo {
+  color: brown;
+  text-align: center;
+}
+/* id selector */
+
+#css {
+  text-align: center;
+}
+/*class selector */
+
+.para {
+  background-color: black;
+  color: aqua;
+}
+/*class selector */
+
+.lorem {
+  background-color: red;
+}
+/*universal selector */
+
+* {
+  font-style: italic;
+}
+/*group selector */
+h2,
+h4,
+h6 {
+  background-color: blue;
+}
 
