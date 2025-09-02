@@ -1,1 +1,70 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  background-color: brown;
+  height: 250px;
+}
+/*direct child*/
 
+header > p {
+  color: aqua;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/*
+font property
+1.font size-small,large ,etc
+2.font style-i
+3.font weight-boldness
+4.font family
+*/
+main {
+  background-color: darkcyan;
+}
+
+section {
+  background-color: burlywood;
+}
+section > h1 {
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px red;
+  /*x , y , blur , colour*/
+}
+section > p {
+  color: brown;
+  text-transform: uppercase;
+  text-align: justify;
+  word-spacing: 8px;
+  text-indent: 100px;
+}
+#tp {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+}
+#fp {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+}
+section > ul {
+  background-color: blueviolet;
+  color: aliceblue;
+}
+#fpl {
+  background-color: saddlebrown;
+  color: wheat;
+}
+#tpl {
+  background-color: saddlebrown;
+  color: wheat;
+}
